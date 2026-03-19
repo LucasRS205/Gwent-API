@@ -82,6 +82,7 @@ function Cards() {
           marginBottom: "24px",
         }}
       >
+        
         <input
           type="text"
           placeholder="Buscar carta pelo nome..."
@@ -128,37 +129,72 @@ function Cards() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+          gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
           gap: "16px",
         }}
       >
-        {filteredCards.slice(0, 50).map((card, index) => (
-          <Link
-            key={index}
-            to={`/card/${encodeURIComponent(card.name)}`}
-            style={{ textDecoration: "none", color: "white" }}
-          >
-            <div
-              style={{
-                border: "1px solid #444",
-                borderRadius: "12px",
-                padding: "16px",
-                background: "#151823",
-                boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
-                height: "100%",
-              }}
-            >
-              <h2 style={{ fontSize: "18px", marginBottom: "8px" }}>
-                {card.name}
-              </h2>
+        {filteredCards.slice(0, 50).map((card, index) => {
+  const attributes = card.attributes || {};
 
-              <p><strong>Facção:</strong> {card.faction || "Não informado"}</p>
-              <p><strong>Categoria:</strong> {card.category || "Não informado"}</p>
-              <p><strong>Poder:</strong> {card.power || "Não informado"}</p>
-              <p><strong>Provisão:</strong> {card.provision || "Não informado"}</p>
-            </div>
-          </Link>
-        ))}
+  return (
+    <Link
+      key={index}
+      to={`/card/${encodeURIComponent(card.name)}`}
+      style={{ textDecoration: "none", color: "white" }}
+    >
+      <div
+  style={{
+    border: "1px solid #444",
+    borderRadius: "12px",
+    padding: "16px",
+    background: "#151823",
+    boxShadow: "0 4px 12px rgba(0,0,0,0.3)",
+    height: "100%",
+  }}
+>
+ <img
+  src={`https://gwent.one/image/gwent/assets/card/card/${card.id?.card}.png`}
+  alt={card.name}
+  style={{
+    width: "100%",
+    borderRadius: "8px",
+    marginBottom: "10px",
+  }}
+/>
+  <h2>{card.name}</h2>
+
+                <p>
+                  <strong>Facção:</strong>{" "}
+                  {attributes.faction ? (
+                    <span style={{ color: "#d4af37" }}>
+                      {attributes.faction}
+                    </span>
+                  ) : (
+                    "Não informado"
+                  )}
+                </p>
+
+                <p>
+                  <strong>Categoria:</strong> {card.category || "Não informado"}
+                </p>
+                <p>
+                  <strong>Tipo:</strong> {attributes.type || "Não informado"}
+                </p>
+                <p>
+                  <strong>Poder:</strong> {attributes.power ?? "Não informado"}
+                </p>
+                <p>
+                  <strong>Provisão:</strong>{" "}
+                  {attributes.provision ?? "Não informado"}
+                </p>
+                <p>
+                  <strong>Raridade:</strong>{" "}
+                  {attributes.rarity || "Não informado"}
+                </p>
+              </div>
+            </Link>
+          );
+        })}
       </div>
     </div>
   );
