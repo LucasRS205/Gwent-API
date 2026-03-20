@@ -11,7 +11,7 @@ O usuário pode navegar entre cartas, pesquisar por nome, filtrar por categoria,
 **Lucas Ramos Silva**  
 Estudante de Engenharia de Software
 
-GitHub: Lucas Ramos (LucasRS205)  
+GitHub: https://github.com/LucasRS205 
 
 ---
 
