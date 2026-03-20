@@ -153,12 +153,16 @@ function Cards() {
   }}
 >
  <img
-  src={`https://gwent.one/image/gwent/assets/card/card/${card.id?.card}.png`}
+  src={`https://gwent.one/image/gwent/assets/card/art/medium/${card.id?.art}.png`}
   alt={card.name}
+  onError={(e) => {
+    e.currentTarget.style.display = "none";
+  }}
   style={{
     width: "100%",
     borderRadius: "8px",
     marginBottom: "10px",
+    display: "block",
   }}
 />
   <h2>{card.name}</h2>

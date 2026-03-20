@@ -65,12 +65,20 @@ function CardDetails() {
       >
         <h1 style={{ marginBottom: "16px" }}>{card.name}</h1>
 
-        {cardHtml && (
-          <div
-            style={{ marginBottom: "24px" }}
-            dangerouslySetInnerHTML={{ __html: cardHtml }}
-          />
-        )}
+        <img
+  src={`https://gwent.one/image/gwent/assets/card/art/high/${card.id?.art}.png`}
+  alt={card.name}
+  onError={(e) => {
+    e.currentTarget.style.display = "none";
+  }}
+  style={{
+    width: "100%",
+    maxWidth: "420px",
+    borderRadius: "12px",
+    marginBottom: "20px",
+    display: "block",
+  }}
+/>
 
         <p>
           <strong>Facção:</strong>{" "}
