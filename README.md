@@ -1,16 +1,59 @@
-# React + Vite
+# Gwent Codex
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Sobre o projeto
+Aplicação React que consome uma API externa para exibir cartas de Gwent.
 
-Currently, two official plugins are available:
+## 🚀 Funcionalidades
+- Listagem de cartas
+- Busca por nome
+- Filtro por categoria
+- Página de detalhes
+- Página por facção
+- Rotas dinâmicas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠 Tecnologias
+- React
+- React Router
+- Axios
+- Vite
 
-## React Compiler
+## ▶️ Como executar
+```bash
+npm install
+npm run dev
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🧱 Arquitetura
 
-## Expanding the ESLint configuration
+Usuário → React → Rotas → API → Dados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📸 Screenshots
+<img width="1281" height="971" alt="Captura de tela 2026-03-20 101016" src="https://github.com/user-attachments/assets/4a657cb4-dc76-4df8-a5b2-b68dc173d0c9" />
+
+<img width="1898" height="975" alt="Captura de tela 2026-03-20 101032" src="https://github.com/user-attachments/assets/9e47e56a-92ac-4978-b51d-cc5535fb4a6d" />
+
+<img width="1917" height="742" alt="Captura de tela 2026-03-20 101051" src="https://github.com/user-attachments/assets/25d2d9ce-8fcb-4c1b-b6c8-b4167f04b284" />
+
+<img width="295" height="644" alt="Captura de tela 2026-03-20 101110" src="https://github.com/user-attachments/assets/3eafb64f-44ef-450c-ba78-432bdd61bcc9" />
+
+<img width="1899" height="732" alt="Captura de tela 2026-03-20 101301" src="https://github.com/user-attachments/assets/96356266-61d0-4ac8-9337-0d9feba84d18" />
+
+<img width="1897" height="974" alt="Captura de tela 2026-03-20 101331" src="https://github.com/user-attachments/assets/60b8ac29-f54d-4c14-9f52-3d4db5b462c2" />
+
+<img width="778" height="973" alt="Captura de tela 2026-03-20 101420" src="https://github.com/user-attachments/assets/4928874a-ce03-4dfc-962b-4b76f6dde754" />
+
+
+🌐 Deploy!
+gwent-api.vercel.app
+
+
+📂 Repositório
+
+
+
+
+
+
+
+
+
+
