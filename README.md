@@ -1,62 +1,187 @@
-# Gwent Codex
+# 🃏 Gwent Codex - Enciclopédia de Cartas de Gwent
 
-## 📌 Sobre o projeto
-Aplicação React que consome uma API externa para exibir cartas de Gwent.
+Uma aplicação web desenvolvida em **React** inspirada no universo de **The Witcher**, com o objetivo de explorar cartas do jogo **Gwent** por meio de uma interface moderna, filtros interativos e páginas dinâmicas.
 
-## 🚀 Funcionalidades
-- Listagem de cartas
-- Busca por nome
-- Filtro por categoria
-- Página de detalhes
-- Página por facção
-- Rotas dinâmicas
+O usuário pode navegar entre cartas, pesquisar por nome, filtrar por categoria, visualizar detalhes completos de cada carta e explorar cartas por facção.
 
-## 🛠 Tecnologias
-- React
-- React Router
-- Axios
-- Vite
+---
 
-## ▶️ Como executar
-```bash
+## 👨‍💻 Autor
+
+**Lucas Silva**  
+Estudante de Engenharia de Software
+
+GitHub: [seu-link-aqui]  
+LinkedIn: [se quiser colocar]
+
+---
+
+## 🎯 Sobre o Projeto (Trabalho do Bimestre)
+
+Este projeto foi desenvolvido como requisito de avaliação da disciplina, atendendo aos critérios solicitados na atividade.
+
+### ✅ Requisitos atendidos
+
+- ✅ **[2 pontos] Aplicação exibindo dados de API**
+- ✅ **[2 pontos] Rotas dinâmicas com links internos**
+- ✅ **[2 pontos] README bem estruturado com orientações de uso**
+- ✅ **[1 ponto] Código-fonte React corretamente versionado**
+- ✅ **[1 ponto] Desenho da arquitetura da aplicação**
+- ✅ **[1 ponto] Prints da aplicação**
+- ✅ **[1 ponto] Link de acesso à aplicação online**
+
+---
+
+## 🏗️ Arquitetura da Aplicação
+
+A aplicação foi estruturada para que a interface React consuma diretamente os dados da API externa de cartas de Gwent.
+
+### Fluxo da aplicação
+
+```text
+Usuário
+   ↓
+Interface React
+   ↓
+React Router
+   ↓
+Páginas (Home, Cards, CardDetails, Faction)
+   ↓
+```
+Estrutura do Projeto
+src/
+├── pages/
+│   ├── Home.jsx
+│   ├── Cards.jsx
+│   ├── CardDetails.jsx
+│   └── Faction.jsx
+├── routes/
+│   └── AppRoutes.jsx
+├── services/
+│   └── api.js
+├── App.jsx
+├── main.jsx
+└── index.css
+
+
+📂 Funcionalidades
+
+Listagem de cartas consumidas de API externa
+
+Busca de cartas por nome
+
+Filtro por categoria
+
+Exibição de imagens das cartas
+
+Página de detalhes de cada carta
+
+Página dinâmica por facção
+
+Navegação interna entre páginas
+
+Interface inspirada no universo de Gwent
+
+
+🧭 Rotas da Aplicação
+
+/ → Página inicial
+
+/cards → Lista de cartas
+
+/card/:name → Página de detalhes da carta
+
+/faction/:name → Página de cartas por facção
+
+
+🚀 Tecnologias Utilizadas
+
+React
+
+React Router DOM
+
+Axios
+
+Vite
+
+CSS
+
+Gwent API
+
+
+🔌 API utilizada
+
+A aplicação consome dados da API comunitária de Gwent para exibir informações sobre as cartas.
+
+
+⚙️ Como Instalar e Rodar o Projeto
+1. Pré-requisitos
+
+Node.js instalado
+
+npm instalado
+
+2. Clonando o repositório
+git clone https://github.com/SEU-USUARIO/gwent-codex.git
+cd gwent-codex
+3. Instalando as dependências
 npm install
+4. Rodando o projeto localmente
 npm run dev
 
-🧱 Arquitetura
+Depois disso, acesse no navegador:
 
-Usuário → React → Rotas → API → Dados
-
-
-
-📸 Screenshots
-<img width="1281" height="971" alt="Captura de tela 2026-03-20 101016" src="https://github.com/user-attachments/assets/4a657cb4-dc76-4df8-a5b2-b68dc173d0c9" />
-
-<img width="1898" height="975" alt="Captura de tela 2026-03-20 101032" src="https://github.com/user-attachments/assets/9e47e56a-92ac-4978-b51d-cc5535fb4a6d" />
-
-<img width="1917" height="742" alt="Captura de tela 2026-03-20 101051" src="https://github.com/user-attachments/assets/25d2d9ce-8fcb-4c1b-b6c8-b4167f04b284" />
-
-<img width="295" height="644" alt="Captura de tela 2026-03-20 101110" src="https://github.com/user-attachments/assets/3eafb64f-44ef-450c-ba78-432bdd61bcc9" />
-
-<img width="1899" height="732" alt="Captura de tela 2026-03-20 101301" src="https://github.com/user-attachments/assets/96356266-61d0-4ac8-9337-0d9feba84d18" />
-
-<img width="1897" height="974" alt="Captura de tela 2026-03-20 101331" src="https://github.com/user-attachments/assets/60b8ac29-f54d-4c14-9f52-3d4db5b462c2" />
-
-<img width="778" height="973" alt="Captura de tela 2026-03-20 101420" src="https://github.com/user-attachments/assets/4928874a-ce03-4dfc-962b-4b76f6dde754" />
+http://localhost:5173
 
 
-🌐 Deploy!
-gwent-api.vercel.app
+🌐 Deploy
 
+A aplicação está hospedada online e pode ser acessada no link abaixo:
 
-📂 Repositório
-https://github.com/LucasRS205/Gwent-API.git
+Acessar aplicação: [coloque seu link da Vercel aqui]
 
+📸 Prints da Aplicação
+Tela Inicial
 
+(coloque aqui o print da Home)
 
+Tela de Listagem de Cartas
 
+(coloque aqui o print da listagem)
 
+Busca por Nome
 
+(coloque aqui o print filtrando “Geralt”)
 
+Filtro por Categoria
 
+(coloque aqui o print com uma categoria selecionada)
 
+Detalhes da Carta
 
+(coloque aqui o print da tela de detalhe)
+
+📌 Aprendizados
+
+Durante o desenvolvimento deste projeto, foram praticados conceitos importantes de desenvolvimento front-end, como:
+
+consumo de API com Axios
+
+componentização
+
+manipulação de estado com React
+
+filtros dinâmicos
+
+rotas dinâmicas com React Router
+
+organização de projeto em pastas
+
+deploy de aplicação web
+
+📁 Repositório
+
+GitHub: [coloque aqui o link do seu repositório]
+Serviço de API (Axios)
+   ↓
+Gwent API
