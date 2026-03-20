@@ -85,6 +85,7 @@ src/
 -Interface inspirada no universo de Gwent
 
 
+
 🧭 Rotas da Aplicação
 
 / → Página inicial
@@ -94,6 +95,7 @@ src/
 /card/:name → Página de detalhes da carta
 
 /faction/:name → Página de cartas por facção
+
 
 
 🚀 Tecnologias Utilizadas
@@ -186,8 +188,8 @@ Durante o desenvolvimento deste projeto, foram praticados conceitos importantes 
 
 📁 Repositório
 
-```
 GitHub: https://github.com/LucasRS205/Gwent-API.git
+```
 Serviço de API (Axios)
    ↓
 Gwent API
