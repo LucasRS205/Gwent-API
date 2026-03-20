@@ -26,6 +26,8 @@ npm run dev
 
 Usuário → React → Rotas → API → Dados
 
+
+
 📸 Screenshots
 <img width="1281" height="971" alt="Captura de tela 2026-03-20 101016" src="https://github.com/user-attachments/assets/4a657cb4-dc76-4df8-a5b2-b68dc173d0c9" />
 
@@ -47,6 +49,7 @@ gwent-api.vercel.app
 
 
 📂 Repositório
+https://github.com/LucasRS205/Gwent-API.git
 
 
 
