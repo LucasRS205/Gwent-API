@@ -48,7 +48,7 @@ Páginas (Home, Cards, CardDetails, Faction)
    ↓
 ```
 Estrutura do Projeto
-
+```
 src/
 ├── pages/
 │   ├── Home.jsx
@@ -62,6 +62,8 @@ src/
 ├── App.jsx
 ├── main.jsx
 └── index.css
+
+```
 
 
 📂 Funcionalidades
@@ -184,7 +186,9 @@ Durante o desenvolvimento deste projeto, foram praticados conceitos importantes 
 
 📁 Repositório
 
+```
 GitHub: https://github.com/LucasRS205/Gwent-API.git
 Serviço de API (Axios)
    ↓
 Gwent API
+```
