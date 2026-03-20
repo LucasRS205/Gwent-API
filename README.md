@@ -48,6 +48,7 @@ Páginas (Home, Cards, CardDetails, Faction)
    ↓
 ```
 Estrutura do Projeto
+
 src/
 ├── pages/
 │   ├── Home.jsx
@@ -65,21 +66,21 @@ src/
 
 📂 Funcionalidades
 
-Listagem de cartas consumidas de API externa
+-Listagem de cartas consumidas de API externa
 
-Busca de cartas por nome
+-Busca de cartas por nome
 
-Filtro por categoria
+-Filtro por categoria
 
-Exibição de imagens das cartas
+-Exibição de imagens das cartas
 
-Página de detalhes de cada carta
+-Página de detalhes de cada carta
 
-Página dinâmica por facção
+-Página dinâmica por facção
 
-Navegação interna entre páginas
+-Navegação interna entre páginas
 
-Interface inspirada no universo de Gwent
+-Interface inspirada no universo de Gwent
 
 
 🧭 Rotas da Aplicação
@@ -95,17 +96,17 @@ Interface inspirada no universo de Gwent
 
 🚀 Tecnologias Utilizadas
 
-React
+-React
 
-React Router DOM
+-React Router DOM
 
-Axios
+-Axios
 
-Vite
+-Vite
 
-CSS
+-CSS
 
-Gwent API
+-Gwent API
 
 
 🔌 API utilizada
@@ -115,28 +116,26 @@ A aplicação consome dados da API comunitária de Gwent para exibir informaçõ
 
 ⚙️ Como Instalar e Rodar o Projeto
 1. Pré-requisitos
-
 Node.js instalado
-
 npm instalado
 
 2. Clonando o repositório
 git clone https://github.com/LucasRS205/Gwent-API.git
 cd gwent-codex
-3. Instalando as dependências
+
+4. Instalando as dependências
 npm install
-4. Rodando o projeto localmente
+
+6. Rodando o projeto localmente
 npm run dev
 
 Depois disso, acesse no navegador:
-
 http://localhost:5173
 
 
 🌐 Deploy
 
 A aplicação está hospedada online e pode ser acessada no link abaixo:
-
 Acessar aplicação: gwent-api.vercel.app
 
 📸 Prints da Aplicação
@@ -169,19 +168,19 @@ Detalhes da Carta
 
 Durante o desenvolvimento deste projeto, foram praticados conceitos importantes de desenvolvimento front-end, como:
 
-consumo de API com Axios
+-consumo de API com Axios
 
-componentização
+-componentização
 
-manipulação de estado com React
+-manipulação de estado com React
 
-filtros dinâmicos
+-filtros dinâmicos
 
-rotas dinâmicas com React Router
+-rotas dinâmicas com React Router
 
-organização de projeto em pastas
+-organização de projeto em pastas
 
-deploy de aplicação web
+-deploy de aplicação web
 
 📁 Repositório
 
