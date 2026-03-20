@@ -8,11 +8,10 @@ O usuário pode navegar entre cartas, pesquisar por nome, filtrar por categoria,
 
 ## 👨‍💻 Autor
 
-**Lucas Silva**  
+**Lucas Ramos Silva**  
 Estudante de Engenharia de Software
 
-GitHub: [seu-link-aqui]  
-LinkedIn: [se quiser colocar]
+GitHub: Lucas Ramos (LucasRS205)  
 
 ---
 
@@ -122,7 +121,7 @@ Node.js instalado
 npm instalado
 
 2. Clonando o repositório
-git clone https://github.com/SEU-USUARIO/gwent-codex.git
+git clone https://github.com/LucasRS205/Gwent-API.git
 cd gwent-codex
 3. Instalando as dependências
 npm install
@@ -138,28 +137,33 @@ http://localhost:5173
 
 A aplicação está hospedada online e pode ser acessada no link abaixo:
 
-Acessar aplicação: [coloque seu link da Vercel aqui]
+Acessar aplicação: gwent-api.vercel.app
 
 📸 Prints da Aplicação
 Tela Inicial
 
-(coloque aqui o print da Home)
+<img width="1281" height="971" alt="Captura de tela 2026-03-20 101016" src="https://github.com/user-attachments/assets/06d760ad-6d6c-4551-92c0-b9a69d322b52" />
+
 
 Tela de Listagem de Cartas
 
-(coloque aqui o print da listagem)
+<img width="1898" height="975" alt="Captura de tela 2026-03-20 101032" src="https://github.com/user-attachments/assets/ef30f41a-16dd-4966-8e77-615d735b11c2" />
+
 
 Busca por Nome
 
-(coloque aqui o print filtrando “Geralt”)
+<img width="1917" height="742" alt="Captura de tela 2026-03-20 101051" src="https://github.com/user-attachments/assets/94033634-a062-4b89-972c-733e133e413f" />
+
 
 Filtro por Categoria
 
-(coloque aqui o print com uma categoria selecionada)
+<img width="295" height="644" alt="Captura de tela 2026-03-20 101110" src="https://github.com/user-attachments/assets/b7993de6-b53b-4437-94d8-5938cfa961f1" />
+
 
 Detalhes da Carta
 
-(coloque aqui o print da tela de detalhe)
+<img width="778" height="973" alt="Captura de tela 2026-03-20 101420" src="https://github.com/user-attachments/assets/7766a656-7160-45d7-9fba-d571a1081180" />
+
 
 📌 Aprendizados
 
@@ -181,7 +185,7 @@ deploy de aplicação web
 
 📁 Repositório
 
-GitHub: [coloque aqui o link do seu repositório]
+GitHub: https://github.com/LucasRS205/Gwent-API.git
 Serviço de API (Axios)
    ↓
 Gwent API
