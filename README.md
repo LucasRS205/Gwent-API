@@ -140,15 +140,26 @@ http://localhost:5173
 
 
 📸 Prints da Aplicação
+
 Tela Inicial
+<img width="1295" height="870" alt="Captura de tela 2026-03-21 131227" src="https://github.com/user-attachments/assets/82c016be-b3e1-467f-91c4-fd9eda3f7cbb" />
+
 
 Listagem de Cartas
+<img width="1900" height="974" alt="Captura de tela 2026-03-21 131427" src="https://github.com/user-attachments/assets/ea61d56a-9f9c-47e3-98d3-7f35ce03417b" />
+
 
 Busca por Nome
+<img width="1893" height="936" alt="Captura de tela 2026-03-21 131325" src="https://github.com/user-attachments/assets/87464cdd-9e87-4c88-a499-fe49db9556d2" />
+
 
 Filtro por Categoria
+<img width="363" height="712" alt="Captura de tela 2026-03-21 131438" src="https://github.com/user-attachments/assets/f0f86575-df07-4202-beb0-e5932e17ebb7" />
+
 
 Detalhes da Carta
+<img width="684" height="913" alt="Captura de tela 2026-03-21 131457" src="https://github.com/user-attachments/assets/04fe5a87-96e4-44ce-8059-67143599b0f7" />
+
 
 🌐 Deploy
 
