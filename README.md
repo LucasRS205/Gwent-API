@@ -170,9 +170,3 @@ A aplicação está disponível online:
 📌 Repositório
 
 👉 https://github.com/LucasRS205/gwent-codex
-
-## 📥 Download do APK
-
-Baixe a versão mais recente do aplicativo:
-
-👉 [Download APK](https://github.com/LucasRS205/pokedex_flutter/releases/tag/v1.0)
