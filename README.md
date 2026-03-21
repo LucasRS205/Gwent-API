@@ -139,7 +139,8 @@ http://localhost:5173
 
 🌐 Deploy
 
-A aplicação está hospedada online e pode ser acessada no link abaixo:
+A aplicação está hospedada online e pode ser acessada:
+
 Acessar aplicação: gwent-api.vercel.app
 
 📸 Prints da Aplicação
